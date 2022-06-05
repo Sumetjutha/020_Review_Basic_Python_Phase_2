@@ -13,6 +13,9 @@ print("End")
 
 ## เรียงจาก ราคาต่ำสุดไปมากสุด แล้วค่อยเชื่อมกับ fruit
 for x,y in zip(fruit,price[::-1]):
+# price.reverse()
+# price.sort()
+# for x,y in zip(fruit,price):
     print("สินค้า =>",x , "ราคา =>", y)
 print("End")
 ##############################################################################
