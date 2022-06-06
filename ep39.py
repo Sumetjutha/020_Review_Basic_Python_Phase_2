@@ -31,4 +31,6 @@ market_A = {
 
 print("market A => ",market_A)
 print("menu ร้านป้าพร => ",market_A["ร้านป้าพร"]["menu"])
+
+print("Yes") if "ก๋วยเตี๋ยว" in market_A["ร้านป้าพร"]["menu"] else print("No")
 ##############################################################################
