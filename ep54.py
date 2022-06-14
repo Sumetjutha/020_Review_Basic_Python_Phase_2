@@ -1,18 +1,12 @@
-A = list[2,2,5,6,9,8]
+###  ฟังก์ชัน เรียก ฟังก์ชัน
 
-A = list(range(100000))
+########################################################################################################################
+## สร้าง ฟังก์ชันเพื่อเปรียบเทียบตัวเลข
+def compare(x,y):
+    if x>y:
+        return x
 
-def solution(A):
-    uniqueInt = list([x for x in A if A.count(x) == 1])
-    return uniqueInt[0]
 
-print(solution(A))
+comnpare(10,5)
 
-# def solution(A):
-#     # write your code in Python 3.6
-    
-#     uniqueInt = list([x for x in A if A.count(x) == 1])
-    
-#     return uniqueInt[0]
-
-# print(solution(A))
+########################################################################################################################
